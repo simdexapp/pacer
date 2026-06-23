@@ -37,3 +37,35 @@ worker/.wrangler
 # local-only tooling (machine-specific paths)
 docs/_*.cjs
 _npm_install.log
+
+# --- migration safety (auto) ---
+node_modules/
+dist/
+build/
+out/
+.next/
+.nuxt/
+.svelte-kit/
+.angular/
+target/
+.turbo/
+.expo/
+.wrangler/
+.open-next/
+.vercel/
+coverage/
+.gradle/
+bin/
+obj/
+.DS_Store
+*.log
+.env
+.env.*
+!*.example
+*.pem
+*.key
+*.pfx
+*.keystore
+*.jks
+id_rsa
+id_ed25519
